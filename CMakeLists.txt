@@ -3,9 +3,9 @@ project( son8test VERSION 0.0.0 LANGUAGES CXX )
 
 set( SON8PROJ son8__${PROJECT_NAME} )
 
-set( TESTUSER soneight CACHE STRING "FetchContent user andor organization" )
+set( TESTUSER son8fork CACHE STRING "FetchContent user andor organization" )
 set( TESTREPO overglad CACHE STRING "FetchContent GIT_REPOSITORY project!" )
-set( TESTHASH d0814aa250e2dd5be88907f544e65921d27efcfa CACHE STRING "FetchContent GIT_TAG hash andor tag!" )
+set( TESTHASH 8028bd5154091c08a28bc48b196c5c79d7080ceb CACHE STRING "FetchContent GIT_TAG hash andor tag!" )
 
 include( FetchContent )
 
